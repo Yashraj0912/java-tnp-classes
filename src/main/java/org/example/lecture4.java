@@ -22,4 +22,11 @@ class safe{
     }
 }
 public class lecture4 {
+    public static void main(String[] args) {
+        safe obj = new safe();
+        obj.setAge(21);
+        obj.setName("yash raj singh yadav");
+        System.out.println(obj.getName());
+        System.out.println(obj.getAge());
+    }
 }
