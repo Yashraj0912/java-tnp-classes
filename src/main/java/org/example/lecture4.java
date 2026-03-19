@@ -96,8 +96,11 @@ public class lecture4 {
                 }
 
                 else {
-                    ac.setLogedIn(true);
-                    break;
+                    if(!ac.isBlocked()) {
+                        ac.setLogedIn(true);
+                        tries =0;
+                        break;
+                    }
                 }
             }
         }
@@ -109,7 +112,7 @@ public class lecture4 {
             System.out.println(" you are blocked");
         }
         else{
-            System.out.println("error aoccured");
+            System.out.println("error occured");
         }
 
     }

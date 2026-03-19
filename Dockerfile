@@ -1,0 +1,2 @@
+from ubantu:latest;
+wkdir .;
